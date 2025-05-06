@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heart love</title>
+    <meta name="language" content="zh-CN">
+    <meta name="title" content="title">
+    <link rel="stylesheet" href="css/love.css">
+</head>
+
+<body>
+
+    <audio autoplay="autopaly" loop="loop" id="audios" preload="auto">
+        <source src="MP3/love.mp3" />
+    </audio>
+
+    <div class="container" onselectstart="return false;" unselectable="on" style="-moz-user-select:none;">
+
+        <div class="body_left">
+            <img id="gifBiu" src="images/biubiubiu.gif" alt="" ondragstart="return false;">
+          </div>
+
+        <div class="body_center love">
+            <div class="block">
+                <div class="div1"></div>
+                <div class="div2"></div>
+                <div class="div3"></div>
+                <div class="div4"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="logo"><b>I <span>Lo</span>ve<span> Y</span>ou</b></div>
+
+    <div class="footer">
+        <div class="border">
+            <div class="border-top"></div>
+            <div class="border-bottom"></div>
+        </div>
+    </div>
+
+    <script>
+        const gif = document.getElementById("gifBiu");
+        gif.src = gif.src + "?t=" + new Date().getTime();
+      </script>
+
+    <script type="text/javascript" src="js/love.js"></script>
+
+</body>
+
+ <!-- 
+
+Contáctame:
+
+    * Invitame un café
+ https://buymeacoffee.com/alexx.dev
+
+    * Sigueme en tiktok
+ https://www.tiktok.com/@alexx.dev?is_from_webapp=1&sender_device=pc 
+ 
+    *Canal de WhatsApp
+ https://whatsapp.com/channel/0029VazQEXq90x2vIdNkrH1p
+
+-->
+
+</html>
